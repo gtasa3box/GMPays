@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>GMPays</title>
+	<link rel="stylesheet" href="nullcss.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" media="screen and (min-width: 750px)" href="style750px.css">
+	<link rel="stylesheet" media="screen and (min-width: 1200px)" href="style1200px.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+<body>
+	<div class="oneblock">
+		<div class="header">
+			<div  class="logo"><a></a></div>
+			<div class="hamburger-menu">
+				  <input id="menu__toggle" type="checkbox" />
+				  <label class="menu__btn" for="menu__toggle">
+				    <span></span>
+				  </label>
+				  <ul class="menu__box">
+				    <li><a class="menu__item" href="#">Solutions</a></li>
+				    <li><a class="menu__item" href="#">Servises</a></li>
+				    <li><a class="menu__item" href="#">Developer</a></li>
+				    <li><a class="menu__item" href="#">Features</a></li>
+				  </ul>
+			</div>
+            <!--Переключатель языков -->
+            <div class="tublerlang">
+	            	<ul class="language-select"> 
+	            		<script type="text/javascript">
+						$('.language-select').click(function(){
+						$(this).toggleClass('open');
+						})
+
+						$('.language-select li').click(function(){
+						var setLang = $('.language-select').data('location'),
+						    dataLangSelect = $(this).data('lang')
+						      $('.language-select').data('location', dataLangSelect);
+						      $('.language-select li').removeClass('active');
+						      $(this).toggleClass('active');
+						});
+					     </script>
+						<li class="active" data-lang="en"><a class="flagen"></a> EN<div class="trlg"></div></li>
+						<li data-lang="en"><a class="flagen"></a>EN</li>
+						<li data-lang="cz"><a class="flagcz"></a>CZ</li>
+					</ul>
+			</div>
+			<a class="btn">Create account</a>
+		</div>
+		<div class="adaptext">
+			<div class="text">
+				<h1>Easy Payments <br>for eCommerce</h1>
+				<p>Reliable people, quick response rate and <br>international experience will meet your <br>professional standards.</p>
+			</div>
+			<div class="btns">
+				<a class="btn1">Get started</a>
+				<a class="btn1 glas">Learn more →</a>
+			</div>
+		</div>
+		<div class="fon"></div>
+		<div class="fon2fullscreen"></div>
+		<div class="nofon"></div>
+	</div>
+	<div class="fathertwo">
+		<div class="twoblock">
+			<div class="text2">
+				<h2>Our solutions</h2>
+				<p>Individual approach. Professional <br class="brnone">consultations. Years of experience.</p>
+			</div>
+			<div class="skobka"></div>
+			<div class="solutions">
+				<div class="easyint">
+					<img src="img/easyint.png" width="113" height="65">
+					<h3>Easy integration</h3>
+					<p>Just few days</p>
+				</div>
+				<div class="securesol">
+					<img src="img/securesol.png" width="107" height="65">
+					<h3>Secure solution</h3>
+					<p>PCI DSS level 1</p>
+				</div>
+				<div class="lowcommis">
+					<img src="img/lowcommis.png" width="105" height="65">
+					<h3>low commission</h3>
+					<p>Between 1% and 5%</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="treeblock">
+		<div class="text3">
+			<h1>Best servises for <br class="brnone">you business</h1>
+			<p>Our range of payment products equips <br class="brnone">your business with the tools necessary <br class="brnone">to succeed</p>
+		</div>
+		<div class="serviseses">
+			<div class="24sup flexim">
+				<img src="img/24sup.png" width="82" height="92">
+				<div class="text4">
+					<h2>24/7 support</h2>
+					<p>Ask technical support questions at any <br class="brnone">time and receive timely assistance</p>
+				</div>
+			</div>
+			<div class="simpleanal flexim">
+				<img src="img/simpleanal.png" width="82" height="92">
+				<div class="text4">
+					<h2>Simple analytics</h2>
+					<p>Learn analytics by sales, currency and <br class="brnone">payment methods in your account</p>
+				</div>
+			</div>
+			<div class="easywith flexim">
+				<img src="img/easywith.png" width="82" height="92">
+				<div class="text4">
+					<h2>Easy withdrawal</h2>
+					<p>Withdraw money on request at any <br class="brnone">time in a convenient way for you</p>
+				</div>
+			</div>
+		</div>
+		<div class="text4pad">
+			<div class="text4 pad">
+				<h2>Authorised Payment Institution</h2>
+				<p>GameMoney is a payment service provider and direct <br class="brnone">acquirer, licensed and regulated by the Financial <br class="brnone">Conduct Authority (FCA). We work with medium and <br class="brnone">large online businesses around the world.</p>
+			</div>
+			<div class="text4 pad">
+				<h2>Innovative Fintech Developer</h2>
+				<p>Offers a full-stack technological solution, engineered <br class="brnone">and maintained by a team of 250+ software <br class="brnone">developers, to assist our eCommerce clients in <br class="brnone">accepting payments from customers globally.</p>
+			</div>
+		</div>
+	</div>
+	<div class="fon2"></div>
+	<div class="fourblock">
+		<div class="bord">
+			<img src="img/internet.png" width="120" height="80">
+			<div class="text5">
+				<h2>Internet acquiring</h2>
+				<p>Modern technical solutions and unique <br>technologies allow us to offer the optimal set <br>of services for online businesses allowing <br>flexibility in payment processes. Our clients <br>receive a responsive module that is individually <br>customized</p>
+			</div>
+		</div>
+		<div class="bord">
+			<img src="img/cross-border.png" width="120" height="80">
+			<div class="text5">
+				<h2>Cross-border pay</h2>
+				<p>Gamemoney cross-border pay platform <br>empowers businesses, online sellers and <br>freelancers to pay and get paid globally as <br>easily as they do locally. In our view ross-border <br>shopping will make up 20% of eCommerce in <br>2022.</p>
+			</div>
+		</div>
+		<div class="bord">
+			<img src="img/dedicated.png" width="104" height="81">
+			<div class="text5">
+				<h2>Dedicated security</h2>
+				<p>Cases like identity theft and payment fraud are <br>apparently increasing day by day in <br>eCommerce segment. So it's important for <br>store owners to give their customers safe and <br>secure shopping environment.</p>
+			</div>
+		</div>
+		<div class="bord">
+			<img src="img/payments.png" width="141" height="82">
+			<div class="text5">
+				<h2>Payments</h2>
+				<p>The cryptocurrency has long ceased to be <br>exotic. To keep up with the times, it is necessary <br>to provide customers with the opportunity to <br>make payments in cryptocurrency. Our service <br>will help you with this.</p>
+			</div>
+		</div>
+	</div>
+	<div class="fiveblock">
+		<div class="stata">
+			<div class="topcont">
+				<div class="statainfo">
+					<h2>4 000+</h2>
+					<p>Services enabled</p>
+				</div>
+				<div class="statainfo padleft">
+					<h2>10 years</h2>
+					<p>At world market</p>
+				</div>
+			</div>
+			<div class="downcontain">
+				<div class="statainfo">
+					<h2>100 k</h2>
+					<p>Transactions per day</p>
+				</div>
+				<div class="statainfo padleft">
+					<h2>100+</h2>
+					<p>Payment methods</p>
+				</div>
+			</div>
+		</div>
+		<div class="grow">
+			<div>
+				<h2>Grow your business</h2>
+				<p>Explore GameMoney Payments, or create an <br>account instantly and start accepting <br>payments. You can also contact us to design a <br>custom package for your business.</p>
+				<a>Get started   →</a>
+			</div>
+			<div class="fon3"></div>
+		</div>
+		<div class="oplata">
+			<div class="topoplata">
+				<div class="opl gamepay"></div>
+				<div class="opl visa"></div>
+				<div class="opl skinpay"></div>
+			</div>
+			<div class="botoplata">
+				<div class="opl yandex"></div>
+				<div class="opl webmoney"></div>
+				<div class="opl qiwi"></div>
+			</div>
+		</div>
+	</div>
+	<div class="sixblock">
+		<div class="GMP"><a></a></div>
+		<div class="borderr"></div>
+		<div class="paymentsol">
+			<p>Smart Payment Solutions a.s., reg. <br>number 046 83 811 © 2016 — 2020</p>
+		</div>
+		<div class="paymentsol2">
+			<p>Send your questions to <br><a>support@gamemoney.com</a></p>
+		</div>
+		<div class="ssilk">
+			<div class="topssi">
+				<a>Terms of Service</a>
+				<a>Privacy Policy</a>
+			</div>
+			<div class="botssi">
+				<a>Contacts</a>
+				<a>KYC and AML</a>	
+			</div>
+		</div>
+		<div class="mercurius"><a></a></div>
+	</div>
+
+	
+</body>
+</html>

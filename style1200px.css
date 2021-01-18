@@ -1,0 +1,226 @@
+#menu__toggle {
+	display: none;
+}
+.menu__btn {
+	display: none;
+}
+.menu__box {
+	display: flex;
+	visibility: visible;
+	position: relative;
+	background-color: inherit;
+}
+.menu__item {
+	font-family: RobotoLight;
+	font-style: normal;
+	
+}
+.menu__box::before {
+	display: none;
+}
+.btn {
+	height: 83px;
+	padding-top: 24px;
+}
+.tublerlang {
+	margin: 0;
+	margin-left: 336px;
+	margin-top: 32px;
+	position: absolute;
+  	right: 231px;
+}
+.fon {
+  background-image: url(img/fonfullscreen.png);
+  height: 637px;
+  width: 846px;
+  background-size: 846px auto;
+  margin-top: -466px;
+  margin-left: 585px;
+}
+.adaptext {
+	padding: 97px 0 0 130px;
+}
+.fon2fullscreen {
+	background-image: url(img/fucksquere.png);
+	pointer-events: none;
+	background-size: 777px auto;
+	position: absolute;
+	left: -63px;
+    top: -41px;
+    z-index: 2;
+}
+.header {
+	position: relative;
+	z-index: 3;
+}
+.twoblock {
+	width: 833px;
+	margin-left: auto;
+    margin-right: auto;
+    height: 188px;
+}
+.text3 h1 {
+	padding-top: 41px;
+	font-size: 55px;
+	line-height: 66px;
+}
+.text3 p {
+	padding-top: 0;
+	font-size: 22px;
+	line-height: 36px;
+	max-width: 555px;
+}
+.flexim {
+	max-width: 360px;
+	flex-direction: row;
+	margin: 0 auto;
+}
+.text4 {
+	padding-top: 0;
+	padding-left: 17px;
+  }
+.flexim img {
+	margin: auto 0;
+}
+.serviseses {
+	margin: 0 auto;
+	justify-content: space-around;
+}
+.fon2 {
+	background-image: url(img/fon2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 643px;
+	height: 682px;
+	margin: 0 auto;
+	margin-top: -372px;
+}
+.text4pad {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding: 229px 150px 0;
+}
+.text4.pad p {
+	font-size: 14px;
+	line-height: 26px;
+}
+.text4.pad h2 {
+	font-size: 34px;
+	line-height: 41px;
+}
+.text4.pad {
+	max-width: 335px;
+}
+.bord {
+	width: 280px;
+	max-width: 280px;
+	min-width: 0px;
+
+}
+.fourblock {
+	margin: -115px 0px 0;
+	padding: 0 150px;
+}
+.text5 br {
+	display: none;
+}
+
+.stata {
+	margin: 0 auto 40px;
+	min-width: 1038px;
+	max-width: 1038px;
+}
+.padleft {
+	padding-left: 129px;
+}
+.statainfo h2 {
+	font-size: 55px;
+	line-height: 66px;
+	white-space: nowrap;
+}
+.fiveblock {
+	padding-top: 35px;
+}
+.fon3 {
+	background-image: url(img/fon3fullscreen.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 851px;
+	height: 380px;
+	margin-top: 28px; 
+	margin-left: -145px;
+}
+.grow {
+  margin: 0 150px 25px;
+  padding-left: 33px;
+  padding-bottom: 37px;
+  max-height: 303px;
+  padding-left: 53px
+}
+.grow br {
+	display: none;
+}
+.grow p {
+	max-width: 396px;
+	font-size: 14px;
+	line-height: 26px;
+}
+.oplata {
+	max-width: 1140px;
+	max-height:71px;
+	display: flex;
+	flex-wrap: nowrap;
+	margin: 61px auto 0;
+	align-items: center;
+
+
+}
+.topoplata {
+	padding: 0;
+	width: 542px;
+	
+}
+.botoplata {
+	padding: 0;
+	width: 542px;
+	margin-left: 57px;
+
+}
+.opl {
+	width:120px;
+	height:56px;
+}
+.webmoney {
+	width:156px;
+	height:73px;
+}
+.borderr {
+	flex-grow: 1;
+	width: 65%;
+}
+.sixblock {
+	
+	padding: 0 150px;
+	overflow: wrap;
+}
+.paymentsol {
+	margin-top: -10px; 	
+}
+.paymentsol2 {
+	margin-top: -10px; 
+}
+.mercurius {
+	margin-right: auto;
+
+}
+.sixblock p {
+	padding-top: 0;
+}
+.ssilki {
+	margin-top: 0;
+}
+.ssilk a {
+	margin-top: -10px;
+	margin-left: 12px;
+}

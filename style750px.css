@@ -1,0 +1,235 @@
+
+/* Шапочка */
+.logo {
+	background-image: url(img/GMPwhite.png);
+	width: 170px;
+	height: 29px;
+	margin: 25px 32px 25px 8px;
+}
+.hamburger-menu {
+	border-left: 1px #fff solid;
+}
+.menu__btn {
+	margin: 18px 202px 28px 25px;
+}
+.menu__box{
+	margin-top: 0px;
+}
+.tublerlang {
+	margin-top: 28px;
+}
+.btn {
+	height: 79px;
+	width: 183px;
+	padding-top: 22px;
+}
+.menu__box::before {
+	left: 268px;
+    top: 76px;
+}
+.adaptext {
+	padding: 77px 0 0 31px; 
+}
+.fon {
+	position: relative;
+    background-size: 449px auto;
+    height: 601px;
+    margin-top: -533px;
+    margin-left: 365px;
+    box-shadow: 10px 10px 10px 10px inherit inset;
+    z-index: 1;
+    pointer-events: none;
+
+
+}
+.oneblock {
+	background: none;
+	background: radial-gradient(77.16% 325.82% at 97.03% 45.2%, #0D0633 0%, #251031 100%);
+	padding-bottom: 80px;
+	overflow: hidden;
+}
+.nofon {
+	display: none;
+}
+.fathertwo {
+	width: 100%;
+	padding: 0 25px 0 25px;
+}
+.twoblock {
+	width: 100%;
+	margin: -80px 0 0 0;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 34px 20px 32px 36px;
+
+}
+.skobka {
+	background-image: url(img/skobka.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 112px;
+	width: 35px;
+}
+.lowcommis{
+	margin: 0;
+	
+}
+.solution {
+	padding: 0;
+	min-width: 402px;
+
+}
+.brnone {
+	display: none;
+}
+.text2 {
+	max-width: 190px;
+}
+.text2 h2 {
+	padding-top: 0;
+}
+.text3 p {
+	max-width: 467px;
+	margin-left: auto;
+    margin-right: auto;
+}
+.treeblock {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.serviseses {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding: 0 50px;
+
+}
+.flexim {
+	max-width: 192px;
+	flex-direction: column;
+
+}
+.text4 p {
+	white-space: normal;
+}
+.text4 {
+	padding-left: 0;
+}
+.text4 h2 {
+	padding: 23px 0 7px;
+}
+.text4pad {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	padding: 0 50px;
+}
+.text4.pad
+{
+	max-width: 300px;
+}
+.text4.pad p {
+	padding-bottom: 0;
+}
+.fon2 {
+	background-image: url(img/fon2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 643px;
+	height: 682px;
+	margin-left: 50px;
+}
+.bord {
+	width: 346px;
+	min-width: 346px;
+	background-color: #fff;
+	margin-bottom: 26px;
+}
+.fourblock {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 0 25px;
+	margin: -193px 0px 0;
+}
+.stata {
+	display: flex;
+	justify-content: space-between;
+}
+.padleft {
+	padding-left: 65px;
+}
+.grow {
+ 	display: flex;
+ 	justify-content: space-around;
+ 	align-items: center;
+}
+.fon3 {
+	background-image: url(img/fon3.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 322px;
+	height: 267px;
+	margin-top: 28px; 
+	
+}
+
+.oplata {
+
+	border-bottom: none;
+}
+.sixblock {
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 0 0 0 25px;
+	
+}
+.GMP {
+	order: 1;
+	
+}
+.borderr {
+	order:2;
+	border-bottom: 1px solid #E4DFF8;
+	height: 1px;
+	width: 320px;
+	margin-left: 46px;
+	margin-right: 34px;
+
+}
+.mercurius {
+	margin:0;
+	margin-top: 23px;
+	order: 3;
+}
+.paymentsol {
+	order: 4;
+	max-height: 52px;
+	max-width: 231px;
+}
+.paymentsol2 {
+	order: 5;
+	margin-left: 69px;
+	margin-top: 17px;
+}
+.ssilk {
+	order: 6;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 38px;
+	margin-left: 154px;
+}
+.botssi {
+	padding: 0;
+}
+.topssi{
+	padding: 0;
+}
+.ssilk a {
+	margin-left: 20px;
+	margin-bottom: 40px;
+}
