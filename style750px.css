@@ -141,10 +141,10 @@
 	background-size: cover;
 	width: 643px;
 	height: 682px;
-	margin-left: 50px;
+	margin: 0 auto;
 }
 .bord {
-	width: 346px;
+	width: 49%;
 	min-width: 346px;
 	background-color: #fff;
 	margin-bottom: 26px;
@@ -160,9 +160,15 @@
 	display: flex;
 	justify-content: space-between;
 }
-.padleft {
-	padding-left: 65px;
+.topcont {
+	width: 50%;
+	justify-content: space-around;
 }
+.downcontain {
+	width: 50%;
+	justify-content: space-around;
+}
+
 .grow {
  	display: flex;
  	justify-content: space-around;
@@ -181,6 +187,12 @@
 .oplata {
 
 	border-bottom: none;
+}
+.topoplata {
+	justify-content: space-around;
+}
+.botoplata {
+	justify-content: space-around;
 }
 .sixblock {
 	flex-direction: row;
